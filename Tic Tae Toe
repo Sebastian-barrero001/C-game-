@@ -1,8 +1,8 @@
 #include <iostream>
 using namespace std;
 
-void init(int board[][3]);          // Initializes the board with 0's
-char printBlock(int block);         // Prints each square of the board
+void init(int board[][3]);          
+char printBlock(int block);         
 void show(int board[][3]);          // Show the board
 void playMove(int board[][3], int); // Play one move
 int checkContinue(int *board[3]);   // Check if there is still white space
